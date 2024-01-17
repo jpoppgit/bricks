@@ -1,0 +1,9 @@
+scikit-image
+scikit-learn>=1.3.2
+pandas
+plotly
+matplotlib
+opencv-python
+Pillow
+psutil
+kaleido
