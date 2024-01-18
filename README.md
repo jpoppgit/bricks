@@ -7,9 +7,12 @@
 
 Classification of playing bricks.
 
-## Why?
-Solving a real life classification problem, in building a solution for classifying playing bricks. Additionaly this repo and project serves as the author's personal learning space.<br>
-For now a solution based on a support vector machine (SVM) is provided here.
+## In a nutshell
+Solving a real life classification problem, in building a solution for classifying playing bricks.
+
+I gradually created a data set with 4000+ samples by applying different image augmentation methods. Then a Support Vector Machine (SVM) was trained being able to distinguish 3 different playing bricks. In order to explain visually how good the SVM performs (and it does well 😉 ) in separating the three classes/bricks, I used the method [sklearn.svm.SVC.decision_function](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html#sklearn.svm.SVC.decision_function). The output of this function was processed into histograms visualizing SVM decision distances.
+
+This repo and project serves as the author's personal learning space.
 
 ## Getting started
 * (pip3 install --upgrade pip)
